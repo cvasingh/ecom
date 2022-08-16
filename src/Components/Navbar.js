@@ -24,7 +24,7 @@ export default function Navbar({ cartOnOff, setCartOnOff }) {
     return (<nav className="navbar navbar-expand-lg navbar-light text-center fixed-top top-navbar">
         <div className="container-xxl">
             <Link className="navbar-brand" to="">
-                <div className='h4'>E-commerce</div>
+                <div className='h4'>E-COM</div>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -33,16 +33,7 @@ export default function Navbar({ cartOnOff, setCartOnOff }) {
                 <div className="nav navbar-nav ms-auto">
                     <ul className="navbar-nav mb-lg-0">
                         <li className="nav-item mx-1">
-                            <Link className="nav-link" to='/dashboard'>Dashboard</Link>
-                        </li>
-                        <li className="nav-item mx-1">
-                            <Link className="nav-link" to='/reports'>Reports</Link>
-                        </li>
-                        <li className="nav-item mx-1">
-                            <Link className="nav-link" to='/devices'>Devices</Link>
-                        </li>
-                        <li className="nav-item mx-1">
-                            <Link className="nav-link" to='/users'>Users</Link>
+                            <Link className="nav-link" to='/others'>Others</Link>
                         </li>
                         <li className="nav-item mx-1 cart me-3">
                             <a className="nav-link "

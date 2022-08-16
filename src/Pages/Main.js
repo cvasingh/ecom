@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar';
 import Cart from '../Components/Cart';
 import LazySingleSwiper from '../Components/SingleSwiper/LazySingleSwiper'
 import LazySwiper from '../Components/Swiper/LazySwiper'
+import Footer from '../Components/Footer';
 
 
 const SingleSwiper = React.lazy(() => import('../Components/SingleSwiper/SingleSwiper'));
@@ -82,6 +83,7 @@ function Main() {
                 </Suspense>
             </div>
         </div>}
+        <Footer/>
     </div>)
 }
 

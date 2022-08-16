@@ -30,28 +30,26 @@ let arr = [{
 }]
 export default function App() {
     return (
-        <>
-            <Swiper
-                slidesPerView={1}
-                spaceBetween={10}
-                loop={true}
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                }}
-                keyboard={{
-                    enabled: true,
-                }}
-                navigation={true}
-                modules={[Autoplay, Keyboard, Navigation]}
-                className="mySwiper"
-            >
-                {arr.map((ele, i) => (
-                    <SwiperSlide key={i}>
-                        <img src={ele.img} className='w-100' />
-                    </SwiperSlide>
-                ))}
-            </Swiper>
-        </>
+        <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            loop={true}
+            autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+            }}
+            keyboard={{
+                enabled: true,
+            }}
+            navigation={true}
+            modules={[Autoplay, Keyboard, Navigation]}
+            className="mySwiper"
+        >
+            {arr.map((ele, i) => (
+                <SwiperSlide key={i}>
+                    <img src={ele.img} className='w-100' />
+                </SwiperSlide>
+            ))}
+        </Swiper>
     );
 }
