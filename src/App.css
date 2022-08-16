@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.top-navbar{
+  background-color: #ffffff;
+}
+
+.cart{
+  position: relative;
+}
+.noOfCart{
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  background-color: red;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 50rem;
+  padding: 1px 5px;
+
+}
+.cartactionbutton{
+  padding: 0px 2px;
+  margin: 0px 2px;
+}
+.card {
+  border: 1px solid rgb(125, 193, 215);
+  border-radius: 10px;
+  margin: 10px;
+  width: 90%;
+  height: 90%;
+  box-shadow: 2px 3px 10px #888888;
+  transition: .3s;
+}
+
+.card:hover {
+  box-shadow: 2px 3px 15px #888888;
+  transform: scale(1.01);
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  height: 60%;
+
+}
+
+.card-title {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 12px;
+  font-weight: 400;
+}
